@@ -1,5 +1,5 @@
 #####Presenting python-paho-tcz
-This is a script for downloading and packing the Eclipse Paho MQTT client python module as a TCZ extension for use on Tiny Core Linux (TCL). It is meant to be run on the target device (a Raspberry Pi running piCore in my case), but cross compilation is certainly possible too. It outputs a file called `python-paho.tcz` that contains the packaged files. Also included are the other metadata files (ie. `python-paho.tcz.dep`, `python-paho.tcz.info`, `python-paho.tcz.list`, and `python-paho.tcz.md5.txt`).
+This is a script for downloading and packing the Eclipse Paho MQTT client python module as a TCZ extension for use on Tiny Core Linux (TCL). It outputs a file called `python-paho.tcz` that contains the packaged files. Also included are the other metadata files (ie. `python-paho.tcz.dep`, `python-paho.tcz.info`, `python-paho.tcz.list`, and `python-paho.tcz.md5.txt`).
 
 DISCLAIMER: This script has been tested on piCore 5.3. It may work with other versions of TCL, but YMMV...
 
