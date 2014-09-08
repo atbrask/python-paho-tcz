@@ -7,9 +7,9 @@ build:
 	cd org.eclipse.paho.mqtt.python && $(PYTHON) setup.py install --prefix=../python-paho/usr/local
 	sudo echo "/etc/sysconfig/tcedir" > /opt/.tce_dir # <-- huge hack
 	$(TCZ-PACK) python-paho
-	cp /tmp/tcztools/python-spidev.tcz .
-	cp /tmp/tcztools/python-spidev.tcz.list .
-	cp /tmp/tcztools/python-spidev.tcz.md5.txt .
+	cp /tmp/tcztools/python-paho.tcz .
+	cp /tmp/tcztools/python-paho.tcz.list .
+	cp /tmp/tcztools/python-paho.tcz.md5.txt .
 
 clean:
 	rm -rf org.eclipse.paho.mqtt.python python-paho
