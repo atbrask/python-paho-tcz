@@ -10,7 +10,6 @@ You'll need a Tiny Core Linux installation with the following extensions (and al
 * git
 * squashfs-tools-4.x
 * findutils
-* python-setuptools (download from [here](https://github.com/atbrask/python-setuptools-tcz))
 * tcztools (download from [here](https://github.com/MSumulong/tcztools))
 
 #####How to build
